@@ -1,0 +1,45 @@
+.MovieList{
+    flex: 4;
+}
+.Btn:link {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.Btn a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.Btn:hover {
+    background-color: red;
+}
+.Btn:active {
+    background-color: red;
+}
+#movie {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#movie td, #movie th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#movie tr:nth-child(even){background-color: #f2f2f2;}
+
+#movie tr:hover {background-color: #ddd;}
+
+#movie th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}

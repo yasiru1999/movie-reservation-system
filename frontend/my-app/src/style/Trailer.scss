@@ -1,0 +1,18 @@
+.trailer{
+  width: 100vw;
+  height: 100vh;
+
+  .backwards{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+}

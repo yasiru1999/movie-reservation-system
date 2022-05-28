@@ -1,0 +1,68 @@
+.MovieListItem{
+  width: 283px;
+  height: 484px;
+  background-color: var(--main-color);
+  margin-right: 45px;
+
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  border-radius: 15px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &:hover{
+    width: 383px;
+    height: 664px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    position: absolute;
+    top: -150px;
+    margin-left: 10px;
+
+    img{
+      height: 383px;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .movieButtons{
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+
+      .movieButtonIcons{
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 18px;
+
+        span{
+          margin-right: 15px;
+          margin-top: 10px;
+        }
+
+        .movieButtonIcon{
+          border: 2px solid white;
+          padding: 5px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+      .movieInfo{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        color: gray;
+      }
+    }
+  }
+}
